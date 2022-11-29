@@ -1,4 +1,4 @@
-import { useCallback, SetStateAction, Dispatch } from 'react';
+import { Dispatch, SetStateAction, useCallback } from 'react';
 
 //boolean
 export const useBooleanChangeEvent = (update: Dispatch<SetStateAction<boolean>>) => {
